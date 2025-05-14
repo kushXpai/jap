@@ -28,3 +28,6 @@ search_text = sys.argv[2]
 
 print(f"\nSearching for '{search_text}' in all files within '{directory}'...\n")
 search_text_in_files(directory, search_text)
+
+
+# python script.py /path/to/directory "search term"
